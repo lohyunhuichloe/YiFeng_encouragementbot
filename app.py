@@ -17,15 +17,15 @@ while True:
       counter += 1
     if each_word == "disappointed":
       feelings_list.append("disappointed")
-      encouragement_list.append("there is always a next time to do well")
+      encouragement_list.append("there is always a next time to do well, so make sure you work hard and do your best next time!")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("you should rest well")
+      encouragement_list.append("you should rest well because we need sufficient sleep to be able to have enough energy to carry out daily activities!")
       counter += 1
     if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("you will do better next time")
+      encouragement_list.append("don't worry about it, this too shall pass. sad things don't last forever! you will do better next time")
       counter += 1
 
   if counter == 0:
@@ -48,7 +48,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! I hope you feel better :)"
 
   print()
   print(output)
